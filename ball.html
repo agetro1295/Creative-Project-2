@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Basketball Stats Finder</title>
+  <link rel="stylesheet" href="BallStyles.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+</head>
+<body class = "body">
+<h1 align = "center" class = "mainHeader">Basketball Player API</h1>
+<div class = "formContainer">
+  <form class="pure-form>" <fieldset>
+    <legend>Enter the first and last name of the basketball player you want information on.</legend>
+    <legend> An example input is First Name : "Stephen" and Last Name: "Curry"</legend>
+    <br>
+    <input placeholder="First Name" id="firstName">
+    <input placeholder="Last Name" id="lastName">
+    <!--<button id="Search" class="pure-button pure-button-primary">Search</button>-->
+    <button id="Search">Search</button>
+    </fieldset>
+  </form>
+  <div id = 'playerPhoto' class = "photoContainer"></div>
+  <br>
+  <div id = 'table' class = 'tableContainer'></div>
+  <div class="footer">
+    <p><a href="https://github.com/agetro1295/Creative-Project-2.git"><em>Creative Lab 2 Repository</em></a></p>
+  </div>
+</div>
+<div id = 'keyList' class = "legend"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+<script text="type/javascript" src="BallScript.js">
+</script>
+</body>
+</html>
